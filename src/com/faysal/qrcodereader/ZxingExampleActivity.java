@@ -42,7 +42,7 @@ public class ZxingExampleActivity extends Activity {
 				// IntentIntegrator integrator = new IntentIntegrator(
 				// ZxingExampleActivity.this);
 				// integrator.initiateScan();
-				String packageName = "com.example.qrreader21";
+				String packageName = "com.faysal.qrcodereader";
 				Intent intent = new Intent(
 						"com.google.zxing.client.android.SCAN");
 				intent.setPackage(packageName);
